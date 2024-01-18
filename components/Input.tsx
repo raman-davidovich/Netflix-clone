@@ -1,9 +1,8 @@
 import React from "react";
 
-//TODO: replace any type on function if its posible
 interface InputProps {
   id: string;
-  onChange: any;
+  onChange: React.ChangeEventHandler<HTMLInputElement>;
   value: string;
   label: string;
   type?: string;
